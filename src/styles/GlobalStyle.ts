@@ -1,5 +1,4 @@
 import styled, { createGlobalStyle } from "styled-components"
-import Lecquer from "../assets/fonts/Lacquer-Regular.ttf"
 
 
 export const GlobalStyle = createGlobalStyle`
@@ -15,10 +14,7 @@ export const GlobalStyle = createGlobalStyle`
 export const colors = {
     primary: "#690000",
     secondary: "#D9D9D9",
+    grey: '#909090',
     black: "#000",
     white: "#fff"
   }
-
-export const Fonts = {
-    Lecquer,
-};

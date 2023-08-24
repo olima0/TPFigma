@@ -2,7 +2,6 @@ import styled from "styled-components"
 import { colors } from "../../styles/GlobalStyle"
 
 export const Header = styled.header`
-  /* Cabeçalho */
   border-bottom: 0.4rem solid ${colors.primary};
   display: flex;
   height: 6rem;
@@ -15,10 +14,10 @@ export const Header = styled.header`
       margin-top: 1.3rem;
     }
   }
+  
 `
 
 export const NavBar = styled.nav`
-  /* Navegação */
   @import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
   display: flex;
   align-items: center;

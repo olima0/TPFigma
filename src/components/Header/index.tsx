@@ -17,6 +17,9 @@ export function Header() {
           <li>
             <a href="/list">8 Mile</a>
           </li>
+          <li>
+            <a href="/about">Sobre</a>
+          </li>
         </ul>
       </S.NavBar>
     </S.Header>
